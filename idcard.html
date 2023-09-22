@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ID Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        #id-card {
+            background-color: #a0b3ea;
+            width: 250px;
+            height: 470px;
+            padding: 20px;
+            margin: 30px auto;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 20px 5px 5px #888888;
+            border-radius: 7%;
+        }
+        
+        #id-card-header {
+            background-color: #000080;
+            color: #ffffff;
+            padding-top: 1px;
+            padding-bottom: 10px;
+            text-align: center;
+            border-radius: 10%;
+        }
+        
+        #id-card-photo {
+            width: 200px;
+            height: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="id-card" style="border: 3px solid;">
+        <div id="id-card-header">
+            <h1>ID Card</h1>
+            <img id="id-card-photo" src="data:image/jpeg;base64,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"
+                height="150" width="200">
+            <center>
+                <h3>Name: Shah Rukh Khan</h3>
+                <h4>Blood Grp: A<sup>+ve</sup></h4>
+                <h4>Dob : 30/09/2001 </h4>
+                <h4>Contact : 9176520117</h4>
+                <h4>Location : GOA</h4>
+            </center>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
