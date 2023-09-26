@@ -7,26 +7,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    header {
+        color: aquamarine;
+        background-color: brown;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    
+    nav {
+        margin-top: 0px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(210, 237, 76);
+    }
+    
+    main {
+        padding: 10px 10px 10px 10px;
+        background-color: red;
+    }
+    
+    #sec1 {
+        padding-left: 10px;
+        height: 90px;
+        width: 33.3%;
+        margin-top: 40px;
+        margin-left: 0%;
+        background-color: brown;
+    }
+    
+    #sec2 {
+        padding-left: 10px;
+        height: 90px;
+        width: 33.3%;
+        margin-top: -110px;
+        margin-left: 33.3%;
+        background-color: rgb(223, 202, 39);
+    }
+    
+    #sec3 {
+        padding-left: 10px;
+        height: 90px;
+        width: 33.3%;
+        margin-left: 66.6%;
+        margin-top: -110px;
+        background-color: rgb(35, 213, 85);
+    }
+    
+    footer {
+        background-color: black;
+        color: aliceblue;
+    }
+</style>
 
 <body>
     <header>
         <h1>Header</h1>
-        <nav>
-            <a href="#">NAV Link 1</a>
-            <a href="#">NAV Link 2</a>
-            <a href="#">NAV Link 3</a>
-        </nav>
     </header>
+    <nav>
+        <a href="#">NAV Link 1</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="#">NAV Link 2</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="#">NAV Link 3</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </nav>
     <main>
-        <section>
+        <section id="sec1">
             <h2> Section 1</h2>
             <p>Section 1.</p>
         </section>
-        <section>
+        <section id="sec2">
             <h2>Section 2</h2>
             <p>Section 2.</p>
         </section>
-        <section>
+        <section id="sec3">
             <h2> Section 3</h2>
             <p> Section 3.</p>
         </section>
@@ -34,6 +85,92 @@
     <footer>
         <p>Footer</p>
     </footer>
+
+
+    <ol>
+        <li>NON_VEG</li>
+        <ul>
+            <li>🐔 Biriyani</li>
+            <li>Mutton Biriyani</li>
+            <li>Fish Fry</li>
+            <li>Prawn Biriyani</li>
+        </ul>
+        <li>VEG</li>
+        <ul>
+            <li>Masala Dosa</li>
+            <li>IDLY</li>
+            <li>Parotta</li>
+            <li>Puri</li>
+        </ul>
+        <li>Bevarages</li>
+        <ul>
+            <li>
+                <dl>
+                    <dt>HOT DRINKS</dt>
+                    <dd>Tea</dd>
+                    <dd>Coffee</dd>
+                    <dd>Black Tea</dd>
+                    <dd>Mint Tea</dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>SOFT DRINKS</dt>
+                    <dd>Sprite</dd>
+                    <dd>Coke</dd>
+                    <dd>Pepsi</dd>
+                    <dd>Maaza</dd>
+                </dl>
+            </li>
+
+        </ul>
+    </ol>
+
+
+    <table border="2px solid">
+        <tr>
+            <th>EID</th>
+            <th>Ename</th>
+            <th>Sal</th>
+            <th>Dept</th>
+            <th>Job</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Pavan</td>
+            <td>10</td>
+            <td>Core Java</td>
+            <td>Trainer & Placement</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Prajwal</td>
+            <td>8</td>
+            <td>SQL</td>
+            <td>Trainer</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Shubham</td>
+            <td>9</td>
+            <td>Core Java</td>
+            <td>Trainer</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Rohit</td>
+            <td>7</td>
+            <td>Web Tech</td>
+            <td>Trainer</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Raj Kumar</td>
+            <td>7</td>
+            <td>Python</td>
+            <td>Trainer</td>
+        </tr>
+    </table>
 </body>
 
 </html>
