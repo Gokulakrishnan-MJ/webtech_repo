@@ -1,0 +1,31 @@
+p::first-letter {
+    color: rgb(101, 180, 36);
+}
+
+p::first-line {
+    background-color: aqua;
+}
+
+p:hover {
+    color: blue;
+}
+
+p::selection {
+    color: chocolate;
+    ;
+}
+
+p {
+    margin: 200px;
+    border-radius: 30px;
+    border-top: 5px double red;
+    border-left: 5px double blue;
+    border-right: 5px double yellow;
+    border-bottom: 5px double green;
+    padding: 2px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
