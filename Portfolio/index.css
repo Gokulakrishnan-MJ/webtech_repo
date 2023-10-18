@@ -1,45 +1,85 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 #navbar {
-    height: 65px;
+    height: 85px;
     /* border: 2px solid; */
-    border-bottom: 4px solid grey;
-    background-color: rgb(200, 192, 192);
-}
-
-#navbar #left-nav-block {
-    height: 100%;
-    width: 20%;
-    color: white;
-    /* border: 2px solid red; */
-    position: relative;
-    left: 10%;
-    top: 35%;
-}
-
-#navbar #right-nav-block {
-    height: 100%;
-    width: 40%;
-    color: white;
-    /* border: 2px solid blue; */
-    position: relative;
-    bottom: 65px;
-    left: 55%;
     display: flex;
+    justify-content: space-between;
 }
 
-#navbar .NavIcon {
-    padding: 10px;
-    position: relative;
-    left: 20%;
-    top: 20%;
-    margin: 0px 5px 0px;
+#navbar .left-nav-block {
+    height: 100%;
+    flex-basis: 30%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#navbar .name {
-    color: rgb(255, 0, 0);
+#navbar .right-nav-block {
+    height: 100%;
+    /* border: 2px solid; */
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar img {
+    height: 40%;
+}
+
+#main_block {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    gap: 10;
+    color: #8F5849;
+    /* border: 2px solid; */
+    justify-content: space-between;
+}
+
+#main_block .right_main_block>img {
+    display: flex;
+    height: 80vh;
+    flex-basis: auto;
+}
+
+#main_block .left_main_block {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    /* border: 2px solid black; */
+    padding: 0px 0px 0px 100px;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    border-radius: 6px;
+    border-color: rgb(162, 162, 162);
+    box-shadow: none;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.button {
+    width: 50vh;
+    height: 5vh;
+    border-color: aliceblue;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(71, 71, 205);
+}
+
+.button:hover {
+    background-color: rgb(63, 63, 182);
 }
