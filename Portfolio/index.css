@@ -9,6 +9,10 @@
     /* border: 2px solid; */
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 
 #navbar .left-nav-block {
@@ -34,6 +38,7 @@
 }
 
 #main_block {
+    margin-top: 75px;
     height: 85vh;
     width: 100%;
     display: flex;
@@ -82,4 +87,45 @@ input {
 
 .button:hover {
     background-color: rgb(63, 63, 182);
+}
+
+.main2 {
+    /* border: 2px solid; */
+    display: flex;
+    padding: 0px 0px 0px 100px;
+    background-color: #f3f2f0;
+}
+
+.section1 {
+    padding-top: 100px;
+    flex-basis: 40%;
+}
+
+.section1>#p1 {
+    color: #8F5849;
+    font-size: 50px;
+}
+
+.section1>#p2 {
+    font-size: 30px;
+}
+
+.section2 {
+    flex-basis: 45%;
+}
+
+.section2 img {
+    height: 70vh;
+    width: 80vh;
+    padding-left: 40px;
+    padding-right: 10px;
+    position: relative;
+    left: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 300px 0px 100px;
+    background-color: #f3f2f0;
 }
